@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/Calibri.eot') format('embedded-opentype'),
+    url('../fonts/Calibri.woff') format('woff'),
+    url('../fonts/Calibri.ttf')  format('truetype'),
+    url('../fonts/Calibri.svg#Calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    color: #2f2f2f;
+    font-family: 'Calibri';
+    background-image: url('../images/header-bg.jpg');
+    background-size: cover;
+}
+
+.lead, .h1 {
+    color: white;
+    font-family: 'Calibri';
+}
+
+
+img {
+    vertical-align: baseline;
+}
+
+label {
+    color: white;
+    font-family: 'Calibri';
+}
+
+
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+a {
+    color: royalblue;
+}
+
+.p-2 {
+    color: white;
+    font-family: 'Calibri';
+    font-size: 150%;
+}
+
+.p-2:hover, .p-2:focus, .p-2:active {
+    color: pink;
+}
+
+a:hover, a:focus, a:active {
+    color: midnightblue;
+}
+
+a:focus {
+    outline: thin dotted;
+}s
+
+a:hover, a:active {
+    outline: 0;
+    list-style: none;
+}
+
+
+/*--------------------------------------------------------------
+# Botoes
+--------------------------------------------------------------*/
+.btn {
+    padding: 16px 46px;
+    border: 2px solid #9a24c1;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    color: #232127;
+}
+
+.btn.gradient-bg {
+    padding: 18px 46px;
+    border: 0;
+    background: -moz-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(88,20,121,1)), color-stop(100%, rgba(171,0,229,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* ie10+ */
+    background: linear-gradient(270deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#581479', endColorstr='#ab00e5',GradientType=1 ); /* ie6-9 */
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Site Footer
+--------------------------------------------------------------*/
+.site-footer {
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+/*--------------------------------------------------------------
+# Form
+--------------------------------------------------------------*/
+.container_2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+}
+.recuadros {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+.recuadros-card {
+    padding: 10px 0 10px 15px;
+    background-color: white;
+    width: 47%;
+    border-radius: 5px;
+}
+#jeandaylink{
+    text-align: left;
+    font-size: 30px;
+}
+#reciclamaxlink{
+    font-size: 30px;
+}
+.cards{
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 10px 0 10px 15px
+}
+.cards a{
+    font-size: 30px;
+}
+#fechaevento{
+    color: darkgrey;
+}
+#descripcion{
+    color: black;
+}
+#costo{
+    color: cornflowerblue;
+}
+.error{
+    color: red;
+}

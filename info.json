@@ -1,0 +1,77 @@
+{
+  "fechaActual": "01/01/2019",
+  "tarjetas": [
+    {
+      "id":1,
+      "nombre": "Jean Day",
+      "fecha": "15/02/2019",
+      "descripcion": "Trae tu oufit preferido",
+      "lugar": "Salón A",
+      "invitados": 3,
+      "costo": 10
+    },
+    {
+      "id":2,
+      "nombre": "Recicla Max",
+      "fecha": "12/05/2019",
+      "descripcion": "Aprendamos a reciclar por un futuro mejor",
+      "lugar": "Campo",
+      "invitados": 20,
+      "costo": 5
+    },
+    {
+      "id":3,
+      "nombre": "El dia de la Tierra",
+      "fecha": "04/08/2019",
+      "descripcion": "Celebremos juntos el dia de la Tierra",
+      "lugar": "Salón C",
+      "invitados": 10,
+      "costo": 15
+    },
+    {
+      "id":4,
+      "nombre": "El dia del profesor",
+      "fecha": "09/09/2019",
+      "descripcion": "Acompañanos a celebrar el dia de nuestros profesores",
+      "lugar": "Salón A",
+      "invitados": 0,
+      "costo": 1
+    },
+    {
+      "id":5,
+      "nombre": "Concierto de Musica",
+      "fecha": "01/02/2018",
+      "descripcion": "Ven y canta con nosotros",
+      "lugar": "Estadio",
+      "invitados": 50,
+      "costo": 15
+    },
+    {
+      "id":6,
+      "nombre": "Reunion de Tecnologia",
+      "fecha": "13/02/2018",
+      "descripcion": "Ven y miremos algo de tecnologia",
+      "lugar": "Salón D1",
+      "invitados": 3,
+      "costo": 5
+    },
+    {
+      "id":7,
+      "nombre": "Dia del reciclaje",
+      "fecha": "09/05/2018",
+      "descripcion": "Celebremos juntos el dia del reciclaje",
+      "lugar": "Salón D1",
+      "invitados": 3,
+      "costo": 5
+    },
+    {
+      "id":8,
+      "nombre": "Dia del agua",
+      "fecha": "21/10/2018",
+      "descripcion": "Aprendamos como cuidar el agua",
+      "lugar": "Centro de convenciones",
+      "invitados": 8,
+      "costo": 5 
+    }
+  ]
+}
